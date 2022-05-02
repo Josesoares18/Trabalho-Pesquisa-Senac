@@ -22,7 +22,7 @@ programa
 		escreva("") // Ano de nascimento
 		leia(a)
 		
-		escreva("") // Ano de nascimento menos a data atual formato (DDMMAAAA)
+		escreva("DDMMAAAA - 02052022") // Ano de nascimento menos a data atual formato (DDMMAAAA)
 		leia(a)
 		
 		escreva("") // Profissão
