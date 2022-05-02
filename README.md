@@ -10,43 +10,46 @@ programa
 		escreva("Olá turma, apresentando codigo desenvolvido por José Soares e Samuel Mendonça")
 		leia(nome)
 		
-		escreva("José Soares e Samuel Mendonça") // Nome da dupla
+		escreva("Responda entre as aspas, no X e em Idade")
+		leia(nome)
+		
+		escreva("") // Nome da dupla
 		leia(a)
 		
-		escreva("José Soares da Silva Lima") // Nome
+		escreva("") // Nome
 		leia(a)
 		
-		escreva("2003") // Ano de nascimento
+		escreva("") // Ano de nascimento
 		leia(a)
 		
-		escreva("04/10/2003") // Ano de nascimento menos a data atual formato (DDMMAAAA)
+		escreva("") // Ano de nascimento menos a data atual formato (DDMMAAAA)
 		leia(a)
 		
-		escreva("Jovem Aprendiz") // Profissão
+		escreva("") // Profissão
 		leia(a)
 		
-		escreva("Masculino") // Genêro
+		escreva("") // Genêro
 		leia(a)
 		
-		escreva("joselimaprofissional18@gmail.com") // E-mail
+		escreva("") // E-mail
 		leia(a)
 		
-		escreva("https://github.com/Josesoares18") // Github
+		escreva("") // Github
 		leia(a)
 		
-		escreva("18 * 50 = 900") // Multiplique a sua idade por 50
+		escreva("Idade * 50 = X") // Multiplique a sua idade por 50
 		leia(a)
 		
-		escreva("18 / 60 = 0,3") // Divida por 60
+		escreva("Idade / 60 = X") // Divida por 60
 		leia(a)
 		
-		escreva("2,2 + 2,3 = 4,5") // Realize uma conta que retorne 25% da sua idade
+		escreva("Idade * 25/100 = X") // Realize uma conta que retorne 25% da sua idade
 		leia(a)
 		
-		escreva("18 + 2022 = 2040") // Some a sua idade a 2022
+		escreva("Idade + 2022 = X") // Some a sua idade a 2022
 		leia(a)
 		
-		escreva("2040 - 45 = 1995") // Subtraia o resultado (Some a sua idade a 2022) - 45
+		escreva("X - 45 = X") // Subtraia o resultado (Some a sua idade a 2022) - 45
 		leia(a)
 
 
