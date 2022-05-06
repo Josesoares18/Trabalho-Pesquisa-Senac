@@ -1,0 +1,231 @@
+programa
+{
+	funcao inicio()
+	{
+		caracter operador, nome, a
+		
+		real resultado = 0.0, operando1, operando2, operando3
+
+		escreva("Digite 'sim' para continuar")
+
+		escreva("\nOlá turma, apresentando codigo desenvolvido por José Soares e Samuel Mendonça:")
+		leia(nome)
+		
+		escreva("\nNome da dupla: ")
+		// Nome da dupla
+		leia(a)
+
+		escreva("Nome: ")
+		// Nome
+		leia(a)
+		
+		escreva("Ano de nascimento: ") 
+		// Ano de nascimento
+		leia(a)
+		
+		escreva("Profissão: ")
+		// Profissão
+		leia(a)
+		
+		escreva("Gênero: ")
+		// Genêro
+		leia(a)
+
+		escreva("E-mail: ")
+		// E-mail
+		leia(a)
+		
+		escreva("Github: ") 
+		// Github
+		leia(a)
+
+		escreva("\nMultiplique a sua idade por 50: ") 
+		// Multiplique a sua idade por 50
+		leia(a)
+
+		escreva("\nDigite o primeiro número: ")
+		leia(operando1)
+
+		escreva("Digite o segundo número: ")
+		leia(operando2)
+
+		escreva("\n")
+		
+		escreva("Agora digite uma das operações ( + - * / ): ")
+		leia(operador)
+
+		/* Verifica qual foi a operação selecionada */
+		
+		se(operador == '*')
+		{
+			resultado = operando1 * operando2
+		}	
+
+		limpa()
+		
+		escreva("Resultado:\n\n")
+		escreva(operando1, " ", operador, " ", operando2, " = ", resultado)
+		
+		escreva("\n")
+
+		escreva("\nDivida por 60: ") 
+		// Divida por 60
+		leia(a)
+
+		escreva("\nDigite o primeiro número: ")
+		leia(operando1)
+
+		escreva("Digite o segundo número: ")
+		leia(operando2)
+
+		escreva("\n")
+		
+		escreva("Agora digite uma das operações ( + - * / ): ")
+		leia(operador)
+
+		/* Verifica qual foi a operação selecionada */
+		
+		se (operador == '+')
+		{
+			resultado = operando1 + operando2
+			
+		}
+		senao  se(operador == '-')
+		{
+			resultado = operando1 - operando2
+			
+		}
+		senao se(operador == '/')
+		{
+			resultado = operando1 / operando2
+			
+		}
+		senao se(operador == '*')
+		{
+			resultado = operando1 * operando2
+		}	
+
+		limpa()
+		
+		escreva("Resultado:\n\n")
+		escreva(operando1, " ", operador, " ", operando2, " = ", resultado)
+		
+		escreva("\n")
+
+		escreva("\nSome a sua idade a 2022: ")
+		// Some a sua idade a 2022:
+		leia(a)
+
+		escreva("\nDigite o primeiro número: ")
+		leia(operando1)
+
+		escreva("Digite o segundo número: ")
+		leia(operando2)
+		
+		escreva("Agora digite uma das operações ( + - * / ): ")
+		leia(operador)
+		
+		escreva("\n")
+
+		/* Verifica qual foi a operação selecionada */
+		
+		se (operador == '+')
+		{
+			resultado = operando1 + operando2
+			
+		}
+
+		escreva("Resultado:\n\n")
+		escreva(operando1, " ", operador, " ", operando2, " = ", resultado)
+		
+		escreva("\n")
+
+		escreva("\nSubtraia o resultado (Some a sua idade a 2022) - 45: ")
+		//  Subtraia o resultado (Some a sua idade a 2022) - 45
+		leia(a)
+
+		escreva("\nDigite o primeiro número: ")
+		leia(operando1)
+
+		escreva("Digite o segundo número: ")
+		leia(operando2)
+		
+		escreva("Agora digite uma das operações ( + - * / ): ")
+		leia(operador)
+		
+		escreva("\n")
+
+		/* Verifica qual foi a operação selecionada */
+		
+		se(operador == '-')
+		{
+			resultado = operando1 - operando2
+			
+		}
+		
+		limpa()
+		
+		escreva("Resultado:\n\n")
+		escreva(operando1, " ", operador, " ", operando2, " = ", resultado)
+		
+		escreva("\n")
+
+		escreva("\nRealize uma conta que retorne 25% da sua idade (X * 25/100): ")
+		// Realize uma conta que retorne 25% da sua idade:
+		leia(a)
+
+		escreva("\nDigite o primeiro número: ")
+		leia(operando1)
+
+		escreva("Digite o segundo número: ")
+		leia(operando2)
+		
+		escreva("Agora digite uma das operações ( + - * / ): ")
+		leia(operador)
+		
+		escreva("\n")
+
+		/* Verifica qual foi a operação selecionada */
+		
+		se(operador == '*')
+		{
+			resultado = operando1 * operando2
+		}	
+
+		limpa()
+		
+		escreva("Resultado:\n\n")
+		escreva(operando1, " ", operador, " ", operando2, " = ", resultado)
+		
+		escreva("\n")
+
+		escreva("\nDigite o primeiro número: ")
+		leia(operando1)
+
+		escreva("Digite o segundo número: ")
+		leia(operando2)
+		
+		escreva("Agora digite uma das operações ( + - * / ): ")
+		leia(operador)
+		
+		escreva("\n")
+
+		/* Verifica qual foi a operação selecionada */
+		
+		se(operador == '/')
+		{
+			resultado = operando1 / operando2
+
+		}	
+
+		limpa()
+		
+		escreva("Resultado:\n\n")
+		escreva(operando1, " ", operador, " ", operando2, " = ", resultado)
+		
+		escreva("\n")
+
+		escreva("\nfim ;)")
+		leia(a)
+	}
+}
